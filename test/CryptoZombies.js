@@ -1,4 +1,4 @@
-const CryptoZombies = artifacts.require("ZombieFactory");
+const CryptoZombies = artifacts.require("ZombieOwnership");
 const utils = require("./helpers/utils");
 const zombieNames = ["Zombie 1", "Zombie 2"];
 contract("CryptoZombies", (accounts) => {
